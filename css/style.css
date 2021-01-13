@@ -35,6 +35,11 @@ label {
     margin: 10px;
 }
 
+.checks {
+    display: flex;
+    flex-direction: column;
+}
+
 .form-div {
     background-color: rgba(27, 27, 50, .8);
 }
