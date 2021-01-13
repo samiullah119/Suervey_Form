@@ -29,14 +29,7 @@ label {
     align-items: center;
     justify-content: flex-start;
 }
-.container{
-    overflow: wrap;
-}
 
-#discription {
-    width: inherit;
-
-}
 .input-checkbox,
 .input-radio {
     margin: 10px;
@@ -54,6 +47,7 @@ label {
 #submit {
     width: 100%;
 }
+
 #description{
     width: auto;
 }
