@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arvo', serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url('../images/ef7085be91d78613f0938fee57e45f4a.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+}
+
+header p {
+    width: 400px;
+    text-transform: capitalize;
+}
+
+label {
+    display: flex;
+    margin-right: 1rem;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.input-checkbox,
+.input-radio {
+    margin: 10px;
+}
+
+.checks {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-div {
+    background-color: rgba(27, 27, 50, .8);
+}
+
+#submit {
+    width: 100%;
+}
+
+#description{
+    width: auto;
+}
